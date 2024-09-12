@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Main from './Components/Main'
 import Services from './Components/Services';
 import Contact from './Components/Contact';
@@ -12,7 +12,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <Router>
+    
       <div>
         <Main />
         <Services />
@@ -23,13 +23,9 @@ function App() {
         <Schedule/>
         <Product/>
         <Footer/>
-        {/* <Routes>
-           <Route path="/services" element={<Services />} /> 
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} /> 
-        </Routes> */}
+        
       </div>
-    </Router>
+    
   );
 }
 
