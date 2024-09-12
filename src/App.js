@@ -23,11 +23,11 @@ function App() {
         <Schedule/>
         <Product/>
         <Footer/>
-        <Routes>
-          {/* <Route path="/services" element={<Services />} /> */}
-          {/* <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} /> */}
-        </Routes>
+        {/* <Routes>
+           <Route path="/services" element={<Services />} /> 
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} /> 
+        </Routes> */}
       </div>
     </Router>
   );
