@@ -17,14 +17,18 @@ function Qa() {
     return (
         <div>
             <section>
+                
+
+                
                     <div className="row text-center">
                         <div className='qa-h'>
                             <h4 style={{ color: '#42a4f5' }}>Our Quality Assurance Process</h4>
                             <p style={{fontSize:'20px'}}>Early on in the project, our testers are brought on board. This enables us to fulfill the highest quality standards and ensure that nothing in your product is neglected.</p>
                         </div>
                     </div>
-                    <div className='row pt-4 p-5'>  
-                    <Swiper
+                    <div className='row pt-4'>  
+                        <div className='p-5'>
+                    <Swiper 
                     modules={[Autoplay, Pagination, Navigation]}
                     slidesPerView={1}
         spaceBetween={2}
@@ -121,10 +125,10 @@ function Qa() {
 
                         </Swiper>
 
-
+                        </div>
 
                     </div>
-
+                
                 
             </section>
         </div>

@@ -132,6 +132,7 @@ h1,h2,h3,h4,h5,h6{
     height: 250px; 
     flex-grow: 1;
     overflow-y: auto;
+    background-color: '#D8D8D81A'
 }
 .fw-card{
   font-weight: 600;
@@ -150,7 +151,6 @@ h1,h2,h3,h4,h5,h6{
   background-position: center;
   /* Makes the background fill the full height of the viewport */
   width: 100%; /* Ensures the background spans the full width */
-  padding: 70px;
   margin-top: 50px;
   margin-bottom: 100px;
 }
@@ -298,7 +298,6 @@ marquee {
 }
 
 .card:hover {
-  transform: scale(1.12);
   z-index: 2;
   margin: 10px;
   overflow-y: auto;
@@ -337,18 +336,20 @@ marquee {
 
 
 /* Rotatingimage */
-.rotating-image {
-  animation: rotate 10s linear infinite; /* Adjust duration and timing function as needed */
+@keyframes appear { 
+  from { 
+    opacity:0;
+  scale: 0.5;
 }
-
-/* Define the rotation keyframes */
-@keyframes rotate {
-  from {
-    transform: rotate(0deg); /* Starting point */
-  }
-  to {
-    transform: rotate(360deg); /* Ending point */
-  }
+to { 
+  opacity:1;
+  scale: 1;
+}
+}
+.block{
+  animation:appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
 }
 
 .product-img-wrapper {

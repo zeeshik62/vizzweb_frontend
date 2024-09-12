@@ -34,7 +34,7 @@ function Why() {
                         </div>
 
                         <div className="col-12 col-md-6 d-flex align-items-center" >
-                            <img className='img-fluid rotating-image' src={whyright} alt='image' />
+                            <img className='img-fluid rotating-image block' src={whyright} alt='image' />
                         </div>
                     </div>
                 </section>

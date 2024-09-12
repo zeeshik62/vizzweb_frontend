@@ -10,7 +10,7 @@ function Quote() {
         <div>
             <section>
                 <div className='quote-img container'>
-
+                <div className='p-5'>
                     <div className="row d-flex align-items-center">
                         <div className="col-12 col-md-6">
                             <h1 className='text-light'>Our Cutting-Edge Solutions for Robust Quality Assurance</h1>
@@ -52,6 +52,7 @@ function Quote() {
                         </div>
                     </div>
 
+                </div>
                 </div>
             </section>
         </div>

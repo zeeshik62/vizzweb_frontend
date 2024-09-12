@@ -67,7 +67,8 @@ function Product() {
         </div>
 
 
-        <div className="row product-swipper-css p-5">
+        <div className="row product-swipper-css">
+          <div className='p-5'>
           <div className="col-12">
             <Swiper
               modules={[FreeMode, Pagination]}
@@ -183,6 +184,7 @@ function Product() {
               </SwiperSlide>
             </Swiper>
 
+          </div>
           </div>
         </div>
         <div className='row'>

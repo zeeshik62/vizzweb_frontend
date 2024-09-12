@@ -8,8 +8,7 @@ import logo6 from '../Images/services-automation.svg'
 function Services() {
     return (
         <div>
-            <section>
-               
+            <section>     
                 <div className="container pt-5">
                 <div className='pt-5'></div> 
                     <div className="row text-center services-p">
